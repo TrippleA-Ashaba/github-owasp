@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(5, 5, 5, 0.319);
+}
+
+.container {
+	background-color: white;
+	border-radius: 20px;
+}
