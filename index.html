@@ -48,7 +48,21 @@
 						name="lastName"
 					/>
 				</div>
-				<input class="btn btn-outline-primary" type="submit" value="Submit" />
+				<div class="col-12">
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							value=""
+							id="invalidCheck"
+						/>
+						<label class="form-check-label" for="invalidCheck">
+							Agree to terms and conditions
+						</label>
+						<div class="invalid-feedback">You must agree before submitting.</div>
+					</div>
+				</div>
+				<button class="btn btn-outline-primary" type="submit">Submit form</button>
 			</form>
 		</div>
 
